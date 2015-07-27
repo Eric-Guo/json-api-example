@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "rails", "4.2.3"
 gem "pg"
 gem "puma"
-gem "jsonapi-resources", git: "https://github.com/cerebris/jsonapi-resources", branch: "master"
+gem "jsonapi-resources", '~> 0.5.4'
 gem "rspec_api_documentation"
 gem "apitome"
 gem "rspec-rails", "~> 3.3.0"
